@@ -51,7 +51,7 @@ header {
   transition: all 0.2s ease;
 }
 .nav-item:hover {
-  filter: brightness(150%);
+  filter: brightness(180%);
   transform: translate(0px, -2px);
 }
 
@@ -64,7 +64,7 @@ header {
 
 #contact-us:hover {
   color: white !important;
-  background-color: #246af3 !important;
+  background-color: #0038a7 !important;
 }
 #about-us {
   margin-right: 200px;
@@ -137,11 +137,12 @@ header {
 .btn-revise:hover {
   transform: translate(5px, -5px);
   box-shadow: -5px 5px 0px #246af3;
-  background-color: rgba(255, 255, 255, 0.466);
+  background-color: #e1e6f0;
 }
 .btn-write:hover {
+  background-color: #053fb4;
   transform: translate(5px, -5px);
-  box-shadow: -5px 5px 0px #578af0;
+  box-shadow: -5px 5px 0px #6591e8;
 }
 /* END OF HEADER */
 
