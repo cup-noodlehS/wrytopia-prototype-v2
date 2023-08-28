@@ -1,0 +1,397 @@
+@font-face {
+  font-family: clashDisplayLight;
+  src: url(fonts/ClashDisplay-Light.woff);
+}
+@font-face {
+  font-family: clashDisplayRegular;
+  src: url(fonts/ClashDisplay-Regular.woff);
+}
+@font-face {
+  font-family: clashDisplayMedium;
+  src: url(fonts/ClashDisplay-Medium.woff);
+}
+
+* {
+  font-family: clashDisplayRegular !important;
+  font-weight: 600 !important;
+  color: #246af3 !important;
+  font-size: 18px;
+}
+
+#logo {
+  transition: all 0.4s ease;
+}
+#logo:hover {
+  transform: scale(102%);
+}
+
+header {
+  height: 100vh !important;
+  width: 100% !important;
+  background-color: #e9f0fe;
+}
+.navs {
+  justify-content: end;
+  background-color: white;
+  border-radius: 15px;
+}
+.navbar-nav {
+  justify-content: space-between;
+}
+.navbar {
+  height: 16.5vh !important;
+  background-color: white !important;
+}
+.nav-pad {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.nav-item {
+  margin-right: 1rem;
+  transition: all 0.2s ease;
+}
+.nav-item:hover {
+  filter: brightness(150%);
+  transform: translate(0px, -2px);
+}
+
+#contact-us {
+  font-family: clashDisplayMedium !important;
+  border-radius: 30px;
+  border-width: 2px !important;
+  border-color: #246af3 !important;
+}
+
+#contact-us:hover {
+  color: white !important;
+  background-color: #246af3 !important;
+}
+#about-us {
+  margin-right: 200px;
+}
+
+.modal-body {
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 30px !important;
+}
+
+.cover {
+  width: 100%;
+  height: 83.5vh;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+.cover-img img {
+  height: 500px;
+}
+#tagline h1 {
+  font-family: clashDisplayMedium !important;
+  font-size: 56px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 66px !important;
+}
+#tagline p {
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 30px !important;
+}
+
+.btn-write {
+  font-size: 17px;
+
+  min-width: 150px;
+  font-family: clashDisplayMedium !important;
+  color: white !important;
+  border-color: #246af3 !important;
+  background-color: #246af3;
+  border-radius: 35px;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  padding-top: 23px !important;
+  padding-bottom: 23px !important;
+  transition: all 0.3s ease;
+}
+.btn-revise {
+  font-size: 17px;
+  min-width: 150px;
+  font-family: clashDisplayMedium !important;
+  color: #246af3 !important;
+  border-color: #246af3 !important;
+  background-color: white;
+  border-width: 2px;
+  border-radius: 35px;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  padding-top: 23px !important;
+  padding-bottom: 23px !important;
+  transition: all 0.3s ease;
+}
+.btn-revise:hover {
+  transform: translate(5px, -5px);
+  box-shadow: -5px 5px 0px #246af3;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+.btn-write:hover {
+  transform: translate(5px, -5px);
+  box-shadow: -5px 5px 0px #578af0;
+}
+/* END OF HEADER */
+
+.overview {
+  background-color: white;
+}
+
+.wiw {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2.8px;
+}
+#wiw-body {
+  width: 85%;
+}
+#wiw-body-top {
+  position: absolute;
+  width: 85%;
+  transform: translate(0, -0.5rem);
+}
+#wiw-body-bottom {
+  position: absolute;
+  width: 86%;
+  transform: translate(0.5rem, 12.9rem);
+}
+.features {
+  padding: 108px;
+}
+
+#features-header {
+  font-family: clashDisplayMedium !important;
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 20px !important; /* 71.429% */
+  letter-spacing: 2.8px !important;
+}
+
+#features-line {
+  font-family: clashDisplayMedium !important;
+  font-size: 56px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 66px !important;
+}
+
+#features-content {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: 30px !important;
+}
+.features-text {
+  width: 400px;
+}
+#features-img {
+  width: 100%;
+}
+
+/* HOW IT WORKS */
+.hit {
+  padding-left: 108px;
+  padding-right: 108px;
+}
+#hit-title {
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 20px !important; /* 71.429% */
+  letter-spacing: 2.8px !important;
+}
+#hit-title2 {
+  font-family: clashDisplayMedium !important;
+  font-size: 56px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 66px !important;
+}
+#hit-p {
+  width: 50%;
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 30px !important;
+}
+
+.card {
+  border-radius: 16px !important;
+  border-color: #246af3;
+}
+.card-title {
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 20px !important;
+}
+.card-text {
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 30px !important;
+}
+.card-btn {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+}
+.card-btn:hover {
+  background-color: #d6dff0;
+  transform: translate(5px, -5px);
+  box-shadow: -5px 5px 0px #246af3;
+}
+.map-cont {
+  height: 500px;
+}
+
+.map {
+  height: 380px;
+  width: 100%;
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+  background-color: #e9f0fe;
+  padding-left: 108px;
+  padding-right: 108px;
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+.map img {
+  height: 80%;
+}
+.map div h1 {
+  font-family: clashDisplayMedium !important;
+  font-size: 56px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 66px !important;
+}
+.btn-map {
+  font-size: 17px;
+
+  min-width: 150px;
+  font-family: clashDisplayMedium !important;
+  color: white !important;
+  border-color: #246af3 !important;
+  background-color: #246af3;
+  border-radius: 35px;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  transition: all 0.3s ease;
+}
+.btn-map:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px 0px #578af0;
+}
+
+footer {
+  background-color: white;
+  padding-left: 108px !important;
+  padding-right: 108px !important;
+  padding-top: 54px !important;
+  padding-bottom: 54px !important;
+  border-top: 1px solid #246af3;
+  margin-top: 200px;
+  gap: 10px;
+}
+footer h5 {
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 20px !important; /* 71.429% */
+  letter-spacing: 2.8px !important;
+  margin-bottom: 2rem;
+}
+footer a {
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  display: block;
+  margin-bottom: 20px;
+}
+footer p {
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
+footer span {
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-pad {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .navs {
+    padding: 20px;
+  }
+  .cover-img img {
+    height: 380px;
+  }
+  #tagline h1 {
+    font-size: 2.2rem !important;
+    text-align: center;
+  }
+  #tagline p {
+    text-align: center;
+  }
+  .cover-img img {
+    display: none;
+  }
+  .tagline-buttons {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .features {
+    padding: 20px;
+  }
+  .hit {
+    padding: 20px;
+  }
+  #hit-p {
+    width: 100%;
+  }
+  .map {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .map img {
+    width: 100%;
+  }
+  footer {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #about-us {
+    margin-right: 60px;
+  }
+  .features-text {
+    width: 70% !important;
+  }
+}
