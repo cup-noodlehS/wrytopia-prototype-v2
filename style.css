@@ -278,7 +278,7 @@ header {
   padding-bottom: 54px;
 }
 .map img {
-  height: 80%;
+  height: 75%;
 }
 .map div h1 {
   font-family: clashDisplayMedium !important;
@@ -316,6 +316,7 @@ footer {
   border-top: 1px solid #246af3;
   margin-top: 200px;
   gap: 10px;
+  justify-content: center !important;
 }
 footer h5 {
   font-size: 28px !important;
@@ -388,6 +389,7 @@ footer span {
   footer {
     padding-left: 20px !important;
     padding-right: 20px !important;
+    justify-content: start !important;
   }
 }
 
