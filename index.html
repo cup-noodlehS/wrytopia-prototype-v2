@@ -29,7 +29,7 @@
         z-index: 100;
         top: 50%;
         left: 37%;
-        display: none;
+        /* display: none; */
       "
     >
       <strong>⚠️Under Construction!</strong> Prototype lang hihi<br />📱mobile
@@ -247,6 +247,46 @@
         <img src="images/features.svg" alt="" id="features-img" />
       </div>
     </div>
+
+    <div class="services">
+      <center><h1 id="services-title">SERVICES</h1></center>
+      <center><h1 id="services-sub">Choose a contract that suits you</h1></center>
+      <div class="row service-card-container">
+        <div class="col-lg-6 col-12 p-2" id="service-card-left">
+          <div id="card-left-content" class="p-5">
+            <h1 class="mycard-title">
+              Contract A
+            </h1>
+            <p class="mycard-description mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia in, cum voluptatibus consequuntur deserunt, nobis </p>
+            <div class="mycard-list mb-3">
+              <div class="d-flex">
+                <img src="images/services/checkGreen.png" class="check me-2" alt="">
+                <p class="mycard-list-text">Creates your story outline in a single session</p>
+              </div>
+              <div class="d-flex">
+                <img src="images/services/checkGreen.png" class="check me-2" alt="">
+                <p class="mycard-list-text">One-on-one meeting with the team to curate your perfect outline</p>
+              </div>
+              <div class="d-flex">
+                <img src="images/services/checkGreen.png" class="check me-2" alt="">
+                <p class="mycard-list-text">Budget-friendly price range based on your story needs</p>
+              </div>
+              <div class="d-flex">
+                <img src="images/services/exGreen.png" class="ex me-2" alt="">
+                <p class="mycard-list-text">Guarantee for outline’s success in contract securing</p>
+              </div>
+            </div>
+            <a
+                href="#"
+                class="btn btn-success btn-write me-2 mb-2"
+                >GET STARTED</a
+              >
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 p-2" id="service-card-right"></div>
+      </div>
+    </div>
+
     <div class="container-fluid hit pt-3" id="hit">
       <center><h1 id="hit-title" class="slide-down1 delay4">HOW IT WORKS</h1></center>
       <center><h1 id="hit-title2">Your path to <span class="idk">perfect outlines</span></h1></center>
@@ -416,13 +456,14 @@
         </div>
       </div>
     </div>
-
     <div class="map-cont">
       <div
-        class="container-fluid map d-flex flex-wrap justify-content-evenly align-items-center"
+        class="container-fluid map row"
       >
-        <img src="images/map-img.png" class="" alt="" />
-        <div class="">
+        <div class="col-lg-6 col-12">
+          <div id="animation2 container2" class="animation-cover"></div>
+        </div>
+        <div class="col-lg-6 col-12">
           <h1>
             Ready to map your<br />
             story? Let's Go!

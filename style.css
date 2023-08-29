@@ -431,6 +431,84 @@ footer span {
   margin-right: 8px;
 }
 
+.services {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 108px;
+  padding-right: 108px;
+}
+
+#services-title {
+  font-family: clashDisplayMedium !important;
+  color: #63727e !important;
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 20px !important; /* 71.429% */
+  letter-spacing: 2.8px !important;
+}
+#services-sub {
+  color: black !important;
+  font-family: clashDisplayMedium !important;
+  font-size: 56px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 66px !important;
+}
+.service-card-container {
+  width: 100%;
+  min-height: 80vh;
+}
+
+#service-card-left {
+  min-height: 550px;
+}
+
+#service-card-right {
+  min-height: 550px;
+  background-color: red;
+}
+
+#card-left-content {
+  border: solid 1px #63727e;
+  border-radius: 16px;
+}
+
+#card-left-content .mycard-title {
+  color: #000 !important;
+  font-family: clashDisplayMedium !important;
+  font-size: 44px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 50px !important; /* 113.636% */
+}
+#card-left-content .mycard-description {
+  color: #63727e !important;
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 30px !important; /* 166.667% */
+}
+.mycard-list-text {
+  color: #000 !important;
+  /* Body 2 */
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+  display: inline;
+}
+.check {
+  width: 26px;
+  height: 26px;
+}
+.ex {
+  width: 26px;
+  height: 26px;
+}
+
 @media only screen and (max-width: 768px) {
   #logo {
     width: 250px !important;
@@ -474,9 +552,11 @@ footer span {
     padding-right: 20px;
     text-align: center;
   }
-  .map img {
-    width: 100%;
+  .services {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
+
   footer {
     padding-left: 20px !important;
     padding-right: 20px !important;
