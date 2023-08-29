@@ -1,15 +1,9 @@
-// const slideDown = document.querySelector(".slide-down1");
-
-// // Create an Intersection Observer instance
-// const observer = new IntersectionObserver((entries) => {
-//   entries.forEach((entry) => {
-//     if (entry.isIntersecting) {
-//       slideDown.style.animation = "slideDown 1.5s";
-//     } else {
-//       slideDown.style.animation = "none";
-//     }
-//   });
-// });
-
-// // Start observing the fade container
-// observer.observe(slideDown);
+//lottie cover animation
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById("animation container"),
+  path: "./images/animations/Hero.lottie.json",
+  render: "svg",
+  loop: true,
+  autoplay: true,
+  name: "cover animation",
+});
