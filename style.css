@@ -63,6 +63,9 @@
 .delay4 {
   animation-delay: 700ms;
 }
+.delay5 {
+  animation-delay: 1000ms;
+}
 .slide-right1 {
   animation: slideRight 1.5s;
 }
