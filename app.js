@@ -11,7 +11,7 @@ var animationPen = bodymovin.loadAnimation({
   container: document.getElementById("animation2 container2"),
   path: "./images/animations/pen.json",
   render: "svg",
-  loop: false,
+  loop: true,
   autoplay: true,
   name: "pen animation",
 });
