@@ -318,7 +318,7 @@ header {
   border-radius: 16px !important;
   border-color: #63727e;
   transition: all 0.3s ease;
-  min-height: 360px !important;
+  min-height: 390px !important;
 }
 .card-title {
   color: black !important;
@@ -596,6 +596,12 @@ footer span {
     padding-left: 20px !important;
     padding-right: 20px !important;
     justify-content: start !important;
+  }
+  .service-card {
+    padding: 20px !important;
+  }
+  .service-card-container {
+    justify-content: center !important;
   }
 }
 
