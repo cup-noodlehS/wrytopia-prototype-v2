@@ -349,6 +349,7 @@ header {
   box-shadow: -5px 5px 0px #00b18f;
 }
 .map-cont {
+  width: 100% !important;
   height: 500px;
 }
 .idk {
@@ -560,7 +561,7 @@ footer span {
 
 .service-active {
   color: #00b18f !important;
-  /* text-decoration: underline !important; */
+  text-decoration: underline !important;
   text-underline-offset: 10px;
   text-decoration-thickness: 5px !important;
 }
