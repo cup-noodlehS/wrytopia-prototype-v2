@@ -70,7 +70,7 @@
   animation: slideRight 1.5s;
 }
 .slide-left1 {
-  animation: slideLeft 3s;
+  animation: slideLeft 1.5s;
 }
 .slide-down1 {
   animation: slideDown 1.5s;
@@ -543,6 +543,34 @@ footer span {
   width: 26px;
   height: 26px;
 }
+.service-option {
+  color: #63727e !important;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Poppins" !important;
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 20px !important; /* 71.429% */
+  transition: all 0.8s ease;
+}
+.service-option:hover {
+  cursor: pointer;
+}
+
+.service-active {
+  color: #00b18f !important;
+  /* text-decoration: underline !important; */
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px !important;
+}
+.outline-revision {
+  transition: all 0.8s ease;
+  display: none;
+}
+.online-creation {
+  transition: all 0.8s ease;
+}
 
 @media only screen and (max-width: 768px) {
   #logo {
@@ -588,8 +616,8 @@ footer span {
     text-align: center;
   }
   .services {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 
   footer {
@@ -599,6 +627,8 @@ footer span {
   }
   .service-card {
     padding: 20px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .service-card-container {
     justify-content: center !important;

@@ -66,7 +66,10 @@
           <div class="collapse navbar-collapse navs" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item delay1">
-                <a class="nav-link hover-lift" aria-current="page" href="#"
+                <a
+                  class="nav-link hover-lift"
+                  aria-current="page"
+                  href="#services"
                   >SERVICES</a
                 >
               </li>
@@ -252,21 +255,34 @@
       </div>
     </div>
 
-    <div class="services mb-5">
+    <div class="services mb-5 pt-3" id="services">
       <center><h1 id="services-title">SERVICES</h1></center>
       <center>
         <h1 id="services-sub">Choose a contract that suits you</h1>
       </center>
-      <div class="row service-card-container">
-        <div class="col-lg-6 col-12 p-2" id="service-card-left">
+      <div class="container-fluid row my-5">
+        <div
+          class="col-6 text-center service-option service-active"
+          id="creation-btn"
+        >
+          Outline Creation
+        </div>
+        <div class="col-6 text-center service-option" id="revision-btn">
+          Outline Revision
+        </div>
+      </div>
+      <div
+        class="row service-card-container outline-creation container-fluid mx-0 justify-content-center"
+      >
+        <div class="col-lg-6 col-12" id="service-card-left">
           <div
             id="card-left-content"
-            class="p-5 d-flex service-card flex-column justify-content-between align-items-start"
+            class="p-5 d-flex service-card flex-column justify-content-between align-items-start mb-3"
           >
             <h1 class="mycard-title">Contract C</h1>
             <p class="mycard-description mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              officia in, cum voluptatibus consequuntur deserunt, nobis
+              A one-time fee and service provided by the third-party agent to
+              the writer.
             </p>
             <div class="mycard-list mb-3">
               <div class="d-flex">
@@ -312,15 +328,131 @@
             >
           </div>
         </div>
-        <div class="col-lg-6 col-12 p-2" id="service-card-right">
+        <div class="col-lg-6 col-12" id="service-card-right">
           <div
             id="card-right-content"
-            class="service-card p-5 d-flex flex-column justify-content-between align-items-start"
+            class="service-card p-5 d-flex flex-column justify-content-between align-items-start mb-3"
           >
             <h1 class="mycard-title">Contract CE</h1>
             <p class="mycard-description mb-3">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              magnam voluptatem tenetur libero est dolores
+              An exclusive service until the story of the writer gets accepted
+              in the online writing platform.
+            </p>
+            <div class="mycard-list mb-3">
+              <div class="d-flex">
+                <img
+                  src="images/services/checkWhite.png"
+                  class="check me-2"
+                  alt=""
+                />
+                <p class="mycard-list-text">
+                  Unlimited outline revision for your stories
+                </p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="images/services/checkWhite.png"
+                  class="check me-2"
+                  alt=""
+                />
+                <p class="mycard-list-text">
+                  One-on-one meeting with the team to curate your perfect
+                  outline
+                </p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="images/services/checkWhite.png"
+                  class="check me-2"
+                  alt=""
+                />
+                <p class="mycard-list-text">
+                  More premium pricing tailored to your story’s requirements
+                </p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="images/services/checkWhite.png"
+                  class="check me-2"
+                  alt=""
+                />
+                <p class="mycard-list-text">
+                  Guarantee for outline’s success in contract securing
+                </p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-success btn-revise me-2 mb-2"
+              >GET STARTED</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="row service-card-container outline-revision container-fluid mx-0 justify-content-center"
+      >
+        <div class="col-lg-6 col-12" id="service-card-left">
+          <div
+            id="card-left-content"
+            class="p-5 d-flex service-card flex-column justify-content-between align-items-start mb-3"
+          >
+            <h1 class="mycard-title">Contract R</h1>
+            <p class="mycard-description mb-3">
+              A one-time fee and service provided by the third-party agent to
+              the writer.
+            </p>
+            <div class="mycard-list mb-3">
+              <div class="d-flex">
+                <img
+                  src="images/services/checkGreen.png"
+                  class="check me-2"
+                  alt=""
+                />
+                <p class="mycard-list-text">
+                  Creates your story outline in a single session
+                </p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="images/services/checkGreen.png"
+                  class="check me-2"
+                  alt=""
+                />
+                <p class="mycard-list-text">
+                  One-on-one meeting with the team to curate your perfect
+                  outline
+                </p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="images/services/checkGreen.png"
+                  class="check me-2"
+                  alt=""
+                />
+                <p class="mycard-list-text">
+                  Budget-friendly price range based on your story needs
+                </p>
+              </div>
+              <div class="d-flex">
+                <img src="images/services/exRed.png" class="ex me-2" alt="" />
+                <p class="mycard-list-text">
+                  Guarantee for outline’s success in contract securing
+                </p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-success btn-write me-2 mb-2"
+              >GET STARTED</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-6 col-12" id="service-card-right">
+          <div
+            id="card-right-content"
+            class="service-card p-5 d-flex flex-column justify-content-between align-items-start mb-3"
+          >
+            <h1 class="mycard-title">Contract RE</h1>
+            <p class="mycard-description mb-3">
+              An exclusive service until the story of the writer gets accepted
+              in the online writing platform.
             </p>
             <div class="mycard-list mb-3">
               <div class="d-flex">
