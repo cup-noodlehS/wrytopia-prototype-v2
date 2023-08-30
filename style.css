@@ -63,11 +63,14 @@
 .delay4 {
   animation-delay: 700ms;
 }
+.delay5 {
+  animation-delay: 1000ms;
+}
 .slide-right1 {
   animation: slideRight 1.5s;
 }
 .slide-left1 {
-  animation: slideLeft 1.5s;
+  animation: slideLeft 3s;
 }
 .slide-down1 {
   animation: slideDown 1.5s;
@@ -232,18 +235,16 @@ header {
   line-height: 20px;
   letter-spacing: 2.8px;
 }
-#wiw-body {
-  width: 85%;
-}
-#wiw-body-top {
-  position: absolute;
-  width: 85%;
-  transform: translate(0, -0.5rem);
-}
-#wiw-body-bottom {
-  position: absolute;
-  width: 86%;
-  transform: translate(0.5rem, 12.9rem);
+#wiw-title {
+  color: rgba(0, 0, 0, 0.5) !important;
+  text-align: center !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: clashDisplayMedium !important;
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 20px !important; /* 71.429% */
+  letter-spacing: 2.8px !important;
 }
 .features {
   padding: 108px;
@@ -317,7 +318,7 @@ header {
   border-radius: 16px !important;
   border-color: #63727e;
   transition: all 0.3s ease;
-  height: 415px !important;
+  min-height: 360px !important;
 }
 .card-title {
   color: black !important;
@@ -325,6 +326,7 @@ header {
   font-style: normal !important;
   font-weight: bolder !important;
   line-height: 20px !important;
+  margin: 1rem;
 }
 .card-text {
   color: #63727e !important;
@@ -466,12 +468,17 @@ footer span {
 
 #service-card-right {
   min-height: 550px;
-  background-color: red;
 }
 
 #card-left-content {
   border: solid 1px #63727e;
   border-radius: 16px;
+  min-height: 615px;
+}
+#card-right-content {
+  background-color: #00b18f;
+  border-radius: 16px;
+  min-height: 615px;
 }
 
 #card-left-content .mycard-title {
@@ -482,6 +489,15 @@ footer span {
   font-weight: 600 !important;
   line-height: 50px !important; /* 113.636% */
 }
+#card-right-content .mycard-title {
+  color: white !important;
+  font-family: clashDisplayMedium !important;
+  font-size: 44px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 50px !important; /* 113.636% */
+}
+
 #card-left-content .mycard-description {
   color: #63727e !important;
   font-family: "Poppins" !important;
@@ -490,8 +506,27 @@ footer span {
   font-weight: 400 !important;
   line-height: 30px !important; /* 166.667% */
 }
-.mycard-list-text {
+#card-right-content .mycard-description {
+  color: white !important;
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 30px !important; /* 166.667% */
+}
+
+#card-left-content .mycard-list-text {
   color: #000 !important;
+  /* Body 2 */
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+  display: inline;
+}
+#card-right-content .mycard-list-text {
+  color: white !important;
   /* Body 2 */
   font-family: "Poppins" !important;
   font-size: 18px !important;
