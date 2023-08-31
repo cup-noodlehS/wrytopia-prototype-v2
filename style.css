@@ -409,7 +409,7 @@ footer {
 }
 footer h5 {
   color: black !important;
-  font-size: 28px !important;
+  font-size: 20px !important;
   font-style: normal !important;
   font-weight: 600 !important;
   line-height: 20px !important; /* 71.429% */
@@ -419,7 +419,7 @@ footer h5 {
 footer a {
   color: #63727e !important;
   font-family: "Poppins" !important;
-  font-size: 18px !important;
+  font-size: 14px !important;
   font-weight: 400 !important;
   display: block;
   margin-bottom: 20px;
@@ -427,7 +427,7 @@ footer a {
 footer p {
   color: black !important;
   font-family: "Poppins" !important;
-  font-size: 18px !important;
+  font-size: 14px !important;
   font-weight: 400 !important;
 }
 footer span {
