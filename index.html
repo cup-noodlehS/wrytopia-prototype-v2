@@ -26,26 +26,6 @@
     <title>Wrytopia</title>
   </head>
   <body class="overflow-x-hidden">
-    <div
-      class="alert alert-warning alert-dismissible fade show"
-      role="alert"
-      style="
-        position: absolute;
-        z-index: 100;
-        top: 50%;
-        left: 37%;
-        display: none;
-      "
-    >
-      <strong>⚠️Under Construction!</strong> Prototype lang hihi<br />📱mobile
-      view still shitty
-      <button
-        type="button"
-        class="btn-close"
-        data-bs-dismiss="alert"
-        aria-label="Close"
-      ></button>
-    </div>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary slide-down1">
         <div class="container-fluid nav-pad">
@@ -95,29 +75,30 @@
             </ul>
           </div>
         </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Contacts</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus quibusdam quaerat, minima in deleniti atque obcaecati
+            eos itaque eaque, dolore, officiis impedit nemo beatae ullam vitae
+            architecto fugiat modi adipisci!
+          </div>
+        </div>
       </nav>
-      <div
-        class="offcanvas offcanvas-end"
-        tabindex="-1"
-        id="offcanvasRight"
-        aria-labelledby="offcanvasRightLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasRightLabel">Contacts</h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus quibusdam quaerat, minima in deleniti atque obcaecati
-          eos itaque eaque, dolore, officiis impedit nemo beatae ullam vitae
-          architecto fugiat modi adipisci!
-        </div>
-      </div>
+
       <div class="cover row m-0 overflow-hidden">
         <div
           class="cover-tagline mb-1 pb-3 col-12 col-lg-6 d-flex justify-content-center align-items-center slide-right1 delay1"
@@ -154,80 +135,80 @@
           <div id="animation container" class="animation-cover"></div>
         </div>
       </div>
-    </header>
-    <div
-      class="modal fade"
-      id="modalWrite"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">WRITE</h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Exercitationem, quae. Aperiam laboriosam nemo id, sint ratione
-            corporis perferendis magnam. Velit quia sed possimus dolore. Iste
-            sequi quas veniam suscipit odit!
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-outline-primary"
-              id="contact-us"
-            >
-              Gaurr
-            </button>
+      <div
+        class="modal fade"
+        id="modalWrite"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">WRITE</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Exercitationem, quae. Aperiam laboriosam nemo id, sint ratione
+              corporis perferendis magnam. Velit quia sed possimus dolore. Iste
+              sequi quas veniam suscipit odit!
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-primary"
+                id="contact-us"
+              >
+                Gaurr
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div
-      class="modal fade"
-      id="modalRevise"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Revise</h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Exercitationem, quae. Aperiam laboriosam nemo id, sint ratione
-            corporis perferendis magnam. Velit quia sed possimus dolore. Iste
-            sequi quas veniam suscipit odit!
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-outline-primary"
-              id="contact-us"
-            >
-              Gaurr
-            </button>
+      <div
+        class="modal fade"
+        id="modalRevise"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Revise</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Exercitationem, quae. Aperiam laboriosam nemo id, sint ratione
+              corporis perferendis magnam. Velit quia sed possimus dolore. Iste
+              sequi quas veniam suscipit odit!
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-primary"
+                id="contact-us"
+              >
+                Gaurr
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </header>
 
     <div class="container-fluid overview pt-4">
       <div class="d-flex flex-column align-items-center mb-3 pt-5">
@@ -524,158 +505,40 @@
         </p>
       </center>
       <div class="d-flex flex-wrap justify-content-center">
-        <a type="button" data-bs-toggle="modal" data-bs-target="#modalStep1">
-          <div class="card text-center m-3" style="width: 18rem">
-            <div class="card-body d-flex flex-column justify-content-between">
-              <div>
-                <img src="images/hitImg1.svg" class="m-3" alt="" />
-                <h5 class="card-title">Step 1</h5>
-                <p class="card-text mb-3">
-                  After scheduling an appointment with us, the sales team will
-                  contact you to explain our contract types where you can ask
-                  queries and concerns.
-                </p>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a type="button" data-bs-toggle="modal" data-bs-target="#modalStep2">
-          <div class="card text-center m-3" style="width: 18rem">
-            <div class="card-body d-flex flex-column justify-content-between">
-              <div>
-                <img src="images/hitImg2.svg" class="m-3" alt="" />
-                <h5 class="card-title">Step 2</h5>
-                <p class="card-text mb-3">
-                  Reviewing and signing of contract via DocuSign platform
-                </p>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a type="button" data-bs-toggle="modal" data-bs-target="#modalStep3">
-          <div class="card text-center m-3" style="width: 18rem">
-            <div class="card-body d-flex flex-column justify-content-between">
-              <div>
-                <img src="images/hitImg3.svg" class="m-3" alt="" />
-                <h5 class="card-title">Step 3</h5>
-                <p class="card-text mb-3">
-                  Content team will collaborate with the writer's needs to
-                  create the outline. Then, the writer will finally submit to
-                  the platform.
-                </p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div>
-        <div
-          class="modal fade"
-          id="modalStep1"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Step 1</h1>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Exercitationem, quae. Aperiam laboriosam nemo id, sint ratione
-                corporis perferendis magnam. Velit quia sed possimus dolore.
-                Iste sequi quas veniam suscipit odit!
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-outline-primary"
-                  id="contact-us"
-                >
-                  Lorem
-                </button>
-              </div>
+        <div class="card text-center m-3" style="width: 18rem">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <img src="images/hitImg1.svg" class="m-3" alt="" />
+              <h5 class="card-title">Step 1</h5>
+              <p class="card-text mb-3">
+                After scheduling an appointment with us, the sales team will
+                contact you to explain our contract types where you can ask
+                queries and concerns.
+              </p>
             </div>
           </div>
         </div>
-
-        <div
-          class="modal fade"
-          id="modalStep2"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Step 2</h1>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Exercitationem, quae. Aperiam laboriosam nemo id, sint ratione
-                corporis perferendis magnam. Velit quia sed possimus dolore.
-                Iste sequi quas veniam suscipit odit!
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-outline-primary"
-                  id="contact-us"
-                >
-                  Lorem
-                </button>
-              </div>
+        <div class="card text-center m-3" style="width: 18rem">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <img src="images/hitImg2.svg" class="m-3" alt="" />
+              <h5 class="card-title">Step 2</h5>
+              <p class="card-text mb-3">
+                Reviewing and signing of contract via DocuSign platform
+              </p>
             </div>
           </div>
         </div>
-
-        <div
-          class="modal fade"
-          id="modalStep3"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Step 3</h1>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Exercitationem, quae. Aperiam laboriosam nemo id, sint ratione
-                corporis perferendis magnam. Velit quia sed possimus dolore.
-                Iste sequi quas veniam suscipit odit!
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-outline-primary"
-                  id="contact-us"
-                >
-                  Lorem
-                </button>
-              </div>
+        <div class="card text-center m-3" style="width: 18rem">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <img src="images/hitImg3.svg" class="m-3" alt="" />
+              <h5 class="card-title">Step 3</h5>
+              <p class="card-text mb-3">
+                Content team will collaborate with the writer's needs to create
+                the outline. Then, the writer will finally submit to the
+                platform.
+              </p>
             </div>
           </div>
         </div>

@@ -359,7 +359,7 @@ header {
 }
 
 .map {
-  min-height: 380px;
+  min-height: 400px;
   width: 100%;
   margin-top: 100px !important;
   background-color: #00b18f;
